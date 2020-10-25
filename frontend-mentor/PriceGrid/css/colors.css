@@ -1,0 +1,13 @@
+.greyish-blue {
+  background-color: hsl(179, 47%, 52%);
+  color: #fff;
+}
+
+.cyan {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+}
+
+.yellow-text {
+  color: hsl(71, 73%, 54%);
+}

@@ -1,0 +1,19 @@
+header {
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+}
+
+h1 span {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}

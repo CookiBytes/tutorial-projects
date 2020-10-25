@@ -1,0 +1,18 @@
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  opacity: 0.6;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.flex > div,
+.flex > ul {
+  flex: 1;
+}
+
+.flex > div:first-child {
+  margin-right: 20px;
+}
+
+.flex > div:last-child {
+  margin-left: 20px;
+}

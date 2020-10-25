@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+  .selection .btn-circle {
+    margin: 50px 20px;
+    transform: scale(1);
+  }
+
+  .go-down {
+    order: 1;
+  }
+
+  .selecton {
+    width: 500px;
+  }
+}

@@ -1,0 +1,13 @@
+.score-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.score-container p {
+  color: hsl(229, 25%, 31%);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+}

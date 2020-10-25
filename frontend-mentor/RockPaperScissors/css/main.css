@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main::before {
+  background-image: url(./images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  z-index: -1;
+}

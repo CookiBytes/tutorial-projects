@@ -1,0 +1,24 @@
+.btn-circle {
+  border: none;
+  border-radius: 50%;
+  box-shadow: inset 0 -5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 0 25px;
+  height: 150px;
+  width: 150px;
+}
+
+.btn-circle:active {
+  transform: scale(0.9);
+}
+
+.btn-circle .wrapper {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: inset 0 5px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}

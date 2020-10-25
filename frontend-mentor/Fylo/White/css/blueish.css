@@ -1,0 +1,20 @@
+.blueish {
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.blueish form {
+  flex-direction: column;
+}
+
+.blueish form input {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  flex: 1;
+}
+
+.blueish form button {
+  margin: 20px 0 0;
+  width: 50%;
+}

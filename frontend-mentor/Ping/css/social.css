@@ -1,0 +1,30 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-list li {
+  margin: 10px;
+}
+
+.social-list li a {
+  border: 1px solid hsl(0, 7%, 89%);
+  border-radius: 50%;
+  color: hsl(223, 87%, 63%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
+.social-list li a:hover {
+  background-color: hsl(223, 87%, 63%);
+  border-color: hsl(223, 87%, 63%);
+  color: #fff;
+}

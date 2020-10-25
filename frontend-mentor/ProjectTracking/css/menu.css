@@ -1,0 +1,41 @@
+nav {
+  margin: 40px 0;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-left: 40px;
+}
+
+ul li.login {
+  position: relative;
+  margin-left: 80px;
+}
+
+ul li.login::before {
+  border-radius: 50%;
+  background-color: var(--grayish-blue);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-40px, -50%);
+  opacity: 0.5;
+  height: 8px;
+  width: 8px;
+}
+
+ul li a {
+  color: var(--very-dark-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ul li.login a {
+  color: var(--grayish-blue);
+}

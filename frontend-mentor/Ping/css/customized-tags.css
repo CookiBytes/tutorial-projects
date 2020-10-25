@@ -1,0 +1,22 @@
+main {
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h1 strong {
+  color: hsl(209, 33%, 12%);
+}
+
+h2 {
+  color: hsl(209, 33%, 12%);
+  font-weight: 300;
+}
